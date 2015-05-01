@@ -1,0 +1,1 @@
+LANDesk cores need a bit of hand holding. ldms\_core keeps cruft from piling up and tells you about problems. It produces statistics, alerts, and advice for monitoring the health of LANDesk Management Suite and Security Suite.
