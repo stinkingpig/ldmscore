@@ -1,0 +1,31 @@
+#!C:\Program Files\ActiveState Perl Dev Kit 7.0 Deployment\bin\lib\pai.exe
+PAP-Version: 1.0
+Packer: C:\Program Files\ActiveState Perl Dev Kit 7.0 Deployment\bin\perlapp.exe
+Script: ldms_nmap_udd.pl
+Cwd: C:\Documents and Settings\Jack Coates\My Documents\code\ldms_nmap\ldms_nmap_udd
+Clean: 0
+Date: 2007-10-15 10:04:44
+Debug: 
+Dependent: 0
+Dyndll: 0
+Exe: ldms_nmap_udd.exe
+Force: 1
+Gui: 0
+Hostname: geode
+No-Compress: 0
+No-Logo: 0
+Runlib: 
+Shared: none
+Tmpdir: 
+Verbose: 0
+Version-Comments: It's a Scientific Venture!
+Version-CompanyName: Monkeynoodle.Org
+Version-FileDescription: Use NMAP to properly set OS Name in Unmanaged Nodes
+Version-FileVersion: 2.9
+Version-InternalName: ldms_nmap_udd
+Version-LegalCopyright: 2006, 2007 Jack Coates [jack@monkeynoodle.org]
+Version-LegalTrademarks: 
+Version-OriginalFilename: ldms_nmap_udd
+Version-ProductName: ldms_nmap_udd
+Version-ProductVersion: 2.9
+Xclude: 0

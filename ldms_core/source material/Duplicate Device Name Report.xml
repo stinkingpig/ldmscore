@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<managementsuite core="GEODE" exported-utc="4/13/2009 11:03:23 PM">
+  <query type="1">
+    <name value="Duplicate Device Name Report - RPTQRY" />
+    <where value="&quot;Computer&quot;.&quot;Device Name&quot;  =  ?" />
+    <field value="&quot;Computer&quot;.&quot;Display Name&quot;" header="Device name" />
+    <field value="&quot;Computer&quot;.&quot;Type&quot;" header="Type" />
+    <field value="&quot;Computer&quot;.&quot;Last Updated by Inventory Server&quot;" header="Last Updated by Inventory Server" />
+    <field value="&quot;Computer&quot;.&quot;System&quot;.&quot;Manufacturer&quot;" header="Manufacturer" />
+    <field value="&quot;Computer&quot;.&quot;System&quot;.&quot;Model&quot;" header="Model" />
+    <field value="&quot;Computer&quot;.&quot;System&quot;.&quot;Serial Number&quot;" header="Serial Number" />
+    <field value="&quot;Computer&quot;.&quot;System&quot;.&quot;Asset Tag&quot;" header="Asset Tag" />
+    <sort value="&quot;Computer&quot;.&quot;Display Name&quot;" />
+    <qualifier value="" />
+    <qualifier value="" />
+    <qualifier value="" />
+    <qualifier value="" />
+    <qualifier value="" />
+    <qualifier value="" />
+    <qualifier value="" />
+  </query>
+  <report name="Duplicate Device Name Report" title="Duplicate Device Name Report" description="Machine records with this device name" isCanned="False" chartType="NoChart" chartField="Device name" type="3" />
+</managementsuite>

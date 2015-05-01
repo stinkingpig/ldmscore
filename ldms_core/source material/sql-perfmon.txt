@@ -1,0 +1,7 @@
+To get a feel of how busy SQL Server is, monitor the SQLServer: SQL Statistics: Batch Requests/Sec counter. This counter measures the number of batch requests that SQL Server receives per second, and generally follows in step to how busy your server's CPUs are. Generally speaking, over 1000 batch requests per second indicates a very busy SQL Server, and could mean that if you are not already experiencing a CPU bottleneck, that you may very well soon. Of course, this is a relative number, and the bigger your hardware, the more batch requests per second SQL Server can handle.
+
+From a network bottleneck approach, a typical 100 Mbs network card is only able to handle about 3000 batch requests per second. If you have a server that is this busy, you may need to have two or more network cards, or go to a 1 Gbs network card.
+
+Some DBAs use the SQLServer: Databases: Transaction/Sec: _Total to measure total SQL Server activity, but this is not a good idea. Transaction/Sec only measures activity that is inside a transaction, not all activity, producing skewed results. Instead, always use the SQLServer: SQL Statistics: Batch Requests/Sec counter, which measures all SQL Server activity. [7.0, 2000] Updated 9-4-2006
+
+http://www.sql-server-performance.com/tips/sql_server_performance_monitor_coutners_p1.aspx

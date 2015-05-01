@@ -1,0 +1,1 @@
+UPDATE Vulnerability SET Category = 'Operating System'

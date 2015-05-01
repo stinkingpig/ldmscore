@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<managementsuite core="ANXIOUS" exported-utc="4/14/2008 11:26:33 PM">
+  <query>
+    <name value="The Gap" />
+    <where value="&quot;Computer&quot;.&quot;Security and Patch Definitions&quot;.&quot;Detected&quot;  Exists" />
+    <field value="&quot;Computer&quot;.&quot;Display Name&quot;" header="Device name" />
+    <field value="&quot;Computer&quot;.&quot;Type&quot;" header="Type" />
+    <field value="&quot;Computer&quot;.&quot;Security and Patch Definitions&quot;.&quot;Patch Install Date&quot;" header="Patch Install Date" />
+    <field value="&quot;Computer&quot;.&quot;Security and Patch Definitions&quot;.&quot;Date Detected&quot;" header="Date Detected" />
+    <sort value="&quot;Computer&quot;.&quot;Display Name&quot;" />
+    <sort value="&quot;Computer&quot;.&quot;Type&quot;" />
+    <sort value="&quot;Computer&quot;.&quot;Security and Patch Definitions&quot;.&quot;Date Detected&quot;" />
+    <sort value="&quot;Computer&quot;.&quot;Security and Patch Definitions&quot;.&quot;Patch Install Date&quot;" />
+    <qualifier value="" />
+    <qualifier value="" />
+    <qualifier value="" />
+    <qualifier value="" />
+  </query>
+</managementsuite>

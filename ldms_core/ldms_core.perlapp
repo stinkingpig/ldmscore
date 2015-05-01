@@ -1,0 +1,38 @@
+#!C:\Program Files\ActiveState Perl Dev Kit 8.0.1\bin\perlapp-gui.exe
+PAP-Version: 1.0
+Packer: C:\Program Files\ActiveState Perl Dev Kit 8.0.1\bin\perlapp.exe
+Script: ldms_core.pl
+Cwd: C:\Documents and Settings\Jack Coates\My Documents\code\ldms_core
+Add: DBD::Oracle
+Add: Authen::SASL
+Add: RRDs
+Add: Authen::SASL::Perl::
+Clean: 0
+Date: 2009-08-11 07:23:21
+Debug: 
+Dependent: 0
+Dyndll: 0
+Exe: ldms_core.exe
+Force: 1
+Gui: 1
+Hostname: geode
+Icon: ldms_core.ico
+No-Compress: 0
+No-Logo: 0
+Runlib: 
+Shared: private
+Tmpdir: 
+Trim: Authen::SASL::Perl::GSSAPI
+Verbose: 0
+Version-Comments: It's A Scientific Venture!
+Version-CompanyName: Monkeynoodle.Org
+Version-FileDescription: ldms_core automates LDMS maintenance
+Version-FileVersion: 3.9.3
+Version-InternalName: ldms_core
+Version-LegalCopyright: 2005-2009 Jack Coates <jack@monkeynoodle.org>
+Version-LegalTrademarks: 
+Version-OriginalFilename: ldms_core
+Version-ProductName: ldms_core
+Version-ProductVersion: 3.9.3
+Warnings: 1
+Xclude: 0

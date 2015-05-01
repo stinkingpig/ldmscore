@@ -1,0 +1,74 @@
+/* This example reports usage info by PC and Product. 
+   	NOTE:	The duration may not exactly match what you see in SLM, but that's just because the rounding is working differently here.
+   		It should only be off by less than a minute.
+--------------------------------------------------------------------------------------------------------- */
+SELECT  distinct devicename, Product.Title, sum(SCM_SessionCount) as [Total Executions], sum(SCM_TotalSessionTime) / 60 as [Total Duration (minutes)]
+FROM FileInfoInstance 
+INNER JOIN ProductFile INNER JOIN Product ON ProductFile.Product_Idn = Product.Product_Idn 
+INNER JOIN FileInfo ON ProductFile.FileInfo_Idn = FileInfo.FileInfo_Idn ON FileInfoInstance.FileInfo_Idn = FileInfo.FileInfo_Idn 
+INNER JOIN Computer ON FileInfoInstance.Computer_Idn = Computer.Computer_Idn 
+group by devicename, product.title
+order by devicename, product.title
+/* ====================================================================================================== */
+
+
+
+/* This example reports usage info by Product.
+   It also includes some useful ways to filter the results (but they are commented out for now):
+   	** the 1st WHERE will limit the results to Custom Products (those you created).
+   	** the 2nd WHERE will limit the results to ONLY those Products which are installed on at least 1 PC.
+   	** the 3rd WHERE will limit the results to Products in Compliance Groups (all Compliance Groups).
+   	** the 4th WHERE will limit the results to Products in a specific Compliance Group named "All Products".
+   		NOTE:	You could use All Products to report specific products that you want to track.
+   			You have to create a Compliance Group called All Products, and add some Products to it.
+   To use these examples, just remove the beginning and ending slash/asterisk.
+   To use more than one example (or multiple examples), change all but the first "WHERE" to "AND" (just the outermost WHEREs).
+--------------------------------------------------------------------------------------------------------- */
+SELECT DISTINCT Title,
+	(
+	SELECT DISTINCT COUNT(DeviceName) AS Expr1
+	FROM         Computer
+	where computer_idn in (
+		SELECT distinct FileInfoInstance.computer_idn
+		FROM   FileInfoInstance 
+		INNER JOIN ProductFile 
+		INNER JOIN FileInfo ON ProductFile.FileInfo_Idn = FileInfo.FileInfo_Idn ON FileInfoInstance.FileInfo_Idn = FileInfo.FileInfo_Idn
+		where ProductFile.Product_Idn = Product.Product_Idn)
+	) as [Total PCs],
+	(
+	SELECT     sum(SCM_SessionCount) AS Expr1
+	FROM         FileInfoInstance
+	INNER JOIN ProductFile 
+	INNER JOIN FileInfo ON ProductFile.FileInfo_Idn = FileInfo.FileInfo_Idn ON FileInfoInstance.FileInfo_Idn = FileInfo.FileInfo_Idn
+	where ProductFile.Product_Idn = Product.Product_Idn
+	) as [Total Executions],
+	(
+	SELECT     sum(SCM_TotalSessionTime) / 60 AS Expr1
+	FROM         FileInfoInstance
+	INNER JOIN ProductFile 
+	INNER JOIN FileInfo ON ProductFile.FileInfo_Idn = FileInfo.FileInfo_Idn ON FileInfoInstance.FileInfo_Idn = FileInfo.FileInfo_Idn
+	where ProductFile.Product_Idn = Product.Product_Idn
+	) as [Total Duration (minutes)]
+FROM   Product
+/* WHERE LDMSProduct = 0 */
+/* WHERE
+	(
+	SELECT DISTINCT COUNT(DeviceName) AS Expr1
+	FROM         Computer
+	where computer_idn in (
+		SELECT distinct FileInfoInstance.computer_idn
+		FROM   FileInfoInstance 
+		INNER JOIN ProductFile 
+		INNER JOIN FileInfo ON ProductFile.FileInfo_Idn = FileInfo.FileInfo_Idn ON FileInfoInstance.FileInfo_Idn = FileInfo.FileInfo_Idn
+		where ProductFile.Product_Idn = Product.Product_Idn)
+	) > 0 */
+
+/* WHERE Product.Product_Idn in (SELECT Member_Idn FROM CustomGroupProduct) */
+/* WHERE Product.Product_Idn in 
+	(
+	SELECT Member_Idn FROM CustomGroupProduct 
+	INNER JOIN CustomGroup ON CustomGroupProduct.CustomGroup_Idn = CustomGroup.CustomGroup_Idn
+	WHERE CustomGroup.Name = 'all products'
+	) */
+order by product.title
+

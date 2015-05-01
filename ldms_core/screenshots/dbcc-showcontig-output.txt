@@ -1,0 +1,2000 @@
+DBCC SHOWCONTIG scanning 'sysobjects' table...
+Table: 'sysobjects' (1); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 24
+- Extent Switches..............................: 22
+- Scan Density [Best Count:Actual Count].......: 13.04% [3:23]
+- Logical Scan Fragmentation ..................: 45.83%
+DBCC SHOWCONTIG scanning 'sysindexes' table...
+Table: 'sysindexes' (2); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 81
+- Extent Switches..............................: 78
+- Scan Density [Best Count:Actual Count].......: 13.92% [11:79]
+- Logical Scan Fragmentation ..................: 41.98%
+DBCC SHOWCONTIG scanning 'syscolumns' table...
+Table: 'syscolumns' (3); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 74
+- Extent Switches..............................: 70
+- Scan Density [Best Count:Actual Count].......: 14.08% [10:71]
+- Logical Scan Fragmentation ..................: 40.54%
+DBCC SHOWCONTIG scanning 'systypes' table...
+Table: 'systypes' (4); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'syscomments' table...
+Table: 'syscomments' (6); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 16
+- Extent Switches..............................: 7
+- Scan Density [Best Count:Actual Count].......: 25.00% [2:8]
+- Logical Scan Fragmentation ..................: 12.50%
+DBCC SHOWCONTIG scanning 'sysfiles1' table...
+Table: 'sysfiles1' (8); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 6508.0
+- Avg. Page Density (full).....................: 19.59%
+DBCC SHOWCONTIG scanning 'syspermissions' table...
+Table: 'syspermissions' (9); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'sysusers' table...
+Table: 'sysusers' (10); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'sysdepends' table...
+Table: 'sysdepends' (12); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'sysreferences' table...
+Table: 'sysreferences' (14); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'sysfilegroups' table...
+Table: 'sysfilegroups' (96); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'OSLinux' table...
+Table: 'OSLinux' (11147085); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MonitorOSLogs' table...
+Table: 'MonitorOSLogs' (16719112); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'APM_Files' table...
+Table: 'APM_Files' (25767149); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'RunStatus' table...
+Table: 'RunStatus' (45243216); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 8059.0
+- Avg. Page Density (full).....................: 0.43%
+DBCC SHOWCONTIG scanning 'LD_MESSAGE' table...
+Table: 'LD_MESSAGE' (46623209); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CCM' table...
+Table: 'CCM' (50099219); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'FileInfoInstance' table...
+Table: 'FileInfoInstance' (64719283); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 129
+- Extent Switches..............................: 19
+- Scan Density [Best Count:Actual Count].......: 85.00% [17:20]
+- Logical Scan Fragmentation ..................: 1.55%
+DBCC SHOWCONTIG scanning 'DistributionTaskLog' table...
+Table: 'DistributionTaskLog' (73767320); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LPTPorts' table...
+Table: 'LPTPorts' (78623323); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LP_PathDef' table...
+Table: 'LP_PathDef' (83531381); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'System_Technology' table...
+Table: 'System_Technology' (98099390); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AgentBehavior' table...
+Table: 'AgentBehavior' (102291424); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ProductFile' table...
+Table: 'ProductFile' (107147427); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CBA8_Files' table...
+Table: 'CBA8_Files' (109243444); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertHandlers' table...
+Table: 'AlertHandlers' (110623437); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LP_GUILink' table...
+Table: 'LP_GUILink' (115531495); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertRulesetInstalled' table...
+Table: 'AlertRulesetInstalled' (128719511); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'UNMANAGEDNODES' table...
+Table: 'UNMANAGEDNODES' (130099504); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Keyboard' table...
+Table: 'Keyboard' (133575514); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_OPERATINGSYSTEM_DEF' table...
+Table: 'PROV_OPERATINGSYSTEM_DEF' (150291595); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_TASK_SMTP' table...
+Table: 'LD_TASK_SMTP' (157243615); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Bus' table...
+Table: 'Bus' (165575628); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_TEMPLATE_DEF' table...
+Table: 'PROV_TEMPLATE_DEF' (198291766); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 5
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Video' table...
+Table: 'Video' (199671759); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LocalGroups' table...
+Table: 'LocalGroups' (201767776); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Printers' table...
+Table: 'Printers' (206623779); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_TASK_USER' table...
+Table: 'LD_TASK_USER' (212195806); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'APM_POLICY_CFG' table...
+Table: 'APM_POLICY_CFG' (245575913); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MulticastOptions' table...
+Table: 'MulticastOptions' (256719967); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertLog' table...
+Table: 'AlertLog' (263671987); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 33.33% [1:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'RC_Files' table...
+Table: 'RC_Files' (267147997); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroup' table...
+Table: 'CustomGroup' (270624007); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'APM_TG_POLICIES' table...
+Table: 'APM_TG_POLICIES' (277576027); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DeliveryMethod' table...
+Table: 'DeliveryMethod' (281768061); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'UNMODELEDDATA' table...
+Table: 'UNMODELEDDATA' (292196091); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroupQuery' table...
+Table: 'CustomGroupQuery' (315148168); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'APM_POLICY_USERS' table...
+Table: 'APM_POLICY_USERS' (325576198); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MBCache' table...
+Table: 'MBCache' (333244242); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'OSNT' table...
+Table: 'OSNT' (354100302); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PWM_CURRENT_SCHEME_DEF' table...
+Table: 'PWM_CURRENT_SCHEME_DEF' (355532350); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_SECTION_DEF' table...
+Table: 'PROV_SECTION_DEF' (358292336); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Scope' table...
+Table: 'Scope' (366624349); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'BANDWIDTH_Files' table...
+Table: 'BANDWIDTH_Files' (368720366); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertParameters' table...
+Table: 'AlertParameters' (375672386); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 33.33% [1:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_TASK_MACHINE' table...
+Table: 'LD_TASK_MACHINE' (381244413); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_SCHEDULE_EXE' table...
+Table: 'LD_SCHEDULE_EXE' (405576483); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LenovoBattInfo' table...
+Table: 'LenovoBattInfo' (416720537); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LogicalDrives' table...
+Table: 'LogicalDrives' (418100530); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertActionFilters' table...
+Table: 'AlertActionFilters' (420196547); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'HealthString' table...
+Table: 'HealthString' (429244584); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_TASK_CONFIG' table...
+Table: 'LD_TASK_CONFIG' (437576597); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_ACTION_TYPE' table...
+Table: 'PROV_ACTION_TYPE' (438292621); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AppleTalk' table...
+Table: 'AppleTalk' (448720651); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AMT_Config' table...
+Table: 'AMT_Config' (450100644); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'METARELATIONSHIPS' table...
+Table: 'METARELATIONSHIPS' (459148681); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ConsoleUser' table...
+Table: 'ConsoleUser' (485576768); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertLogRules' table...
+Table: 'AlertLogRules' (500196832); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_BLOB_DEF' table...
+Table: 'PROV_BLOB_DEF' (502292849); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LDTaskCoreState' table...
+Table: 'LDTaskCoreState' (505768859); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 8052.0
+- Avg. Page Density (full).....................: 0.52%
+DBCC SHOWCONTIG scanning 'ClientManager' table...
+Table: 'ClientManager' (507148852); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'WebDefColumn' table...
+Table: 'WebDefColumn' (509244869); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SCANNER_Files' table...
+Table: 'SCANNER_Files' (514100872); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PWM_BASE_SCHEME_DEF' table...
+Table: 'PWM_BASE_SCHEME_DEF' (531532977); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_ACTION_DEF' table...
+Table: 'PROV_ACTION_DEF' (534292963); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 33
+- Extent Switches..............................: 4
+- Scan Density [Best Count:Actual Count].......: 100.00% [5:5]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SCSIControllers' table...
+Table: 'SCSIControllers' (548197003); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MacInfo' table...
+Table: 'MacInfo' (555149023); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TVTQuickLinks' table...
+Table: 'TVTQuickLinks' (562101043); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 7640.0
+- Avg. Page Density (full).....................: 5.61%
+DBCC SHOWCONTIG scanning 'ActiveProtectionSystem' table...
+Table: 'ActiveProtectionSystem' (578101100); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SCSIDevice' table...
+Table: 'SCSIDevice' (603149194); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'VideoMonitor' table...
+Table: 'VideoMonitor' (605245211); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DashboardCfg' table...
+Table: 'DashboardCfg' (608721221); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 7801.0
+- Avg. Page Density (full).....................: 3.62%
+DBCC SHOWCONTIG scanning 'CommonAgent8' table...
+Table: 'CommonAgent8' (610101214); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SOFTMON_Files' table...
+Table: 'SOFTMON_Files' (615673241); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LDAPMachineGroups' table...
+Table: 'LDAPMachineGroups' (640721335); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'FileInfo' table...
+Table: 'FileInfo' (658101385); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 259
+- Extent Switches..............................: 32
+- Scan Density [Best Count:Actual Count].......: 100.00% [33:33]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'BrokerURL' table...
+Table: 'BrokerURL' (660197402); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Font' table...
+Table: 'Font' (663673412); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 5
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ServerManager' table...
+Table: 'ServerManager' (683149479); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'WUserAgent' table...
+Table: 'WUserAgent' (685245496); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertNames' table...
+Table: 'AlertNames' (686625489); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 6
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 33.33% [1:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroupPackage' table...
+Table: 'CustomGroupPackage' (692197516); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PWM_SCHEME_DEF' table...
+Table: 'PWM_SCHEME_DEF' (707533604); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_TASK' table...
+Table: 'LD_TASK' (709577566); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Proxy' table...
+Table: 'Proxy' (713769600); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ScheduledQueries' table...
+Table: 'ScheduledQueries' (731149650); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PxeMenu' table...
+Table: 'PxeMenu' (733245667); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'GlobalTask' table...
+Table: 'GlobalTask' (736721677); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TaskFiles' table...
+Table: 'TaskFiles' (761769771); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 3
+- Extents Scanned..............................: 3
+- Extent Switches..............................: 2
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 33.33% [1:3]
+- Extent Scan Fragmentation ...................: 66.67%
+- Avg. Bytes Free per Page.....................: 7425.0
+- Avg. Page Density (full).....................: 8.27%
+DBCC SHOWCONTIG scanning 'AccessConnection' table...
+Table: 'AccessConnection' (765245781); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LenovoSysUpdt' table...
+Table: 'LenovoSysUpdt' (768721791); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'StorageDevice' table...
+Table: 'StorageDevice' (779149821); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertCategory' table...
+Table: 'AlertCategory' (782625831); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ApmCommandLines' table...
+Table: 'ApmCommandLines' (789577851); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PACKAGE_RELATIONSHIPS' table...
+Table: 'PACKAGE_RELATIONSHIPS' (793769885); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Printer' table...
+Table: 'Printer' (800721905); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_PRESENTATION_NODE' table...
+Table: 'PROV_PRESENTATION_NODE' (806293932); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MonitorRules' table...
+Table: 'MonitorRules' (811149935); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 3
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Codecs' table...
+Table: 'Codecs' (813245952); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 5
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 33.33% [1:3]
+- Logical Scan Fragmentation ..................: 20.00%
+DBCC SHOWCONTIG scanning 'AlertCategoryMapping' table...
+Table: 'AlertCategoryMapping' (830626002); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ODBCDriver' table...
+Table: 'ODBCDriver' (832722019); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 13
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 100.00% [2:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'USBDevice' table...
+Table: 'USBDevice' (834102012); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TrustedCerts' table...
+Table: 'TrustedCerts' (855674096); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PWM_POLICY_SCHEME_REL' table...
+Table: 'PWM_POLICY_SCHEME_REL' (867534174); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MountDrives' table...
+Table: 'MountDrives' (868198143); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AMT_Info' table...
+Table: 'AMT_Info' (880722190); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'USBControl' table...
+Table: 'USBControl' (882102183); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TaskAllowedMachines' table...
+Table: 'TaskAllowedMachines' (894626230); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extents Scanned..............................: 2
+- Extent Switches..............................: 1
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Extent Scan Fragmentation ...................: 50.00%
+- Avg. Bytes Free per Page.....................: 7849.5
+- Avg. Page Density (full).....................: 3.02%
+DBCC SHOWCONTIG scanning 'METASCHEMAS' table...
+Table: 'METASCHEMAS' (900198257); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ODBCSystemDSN' table...
+Table: 'ODBCSystemDSN' (901578250); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Processor' table...
+Table: 'Processor' (903674267); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_ACTION_ORDER' table...
+Table: 'PROV_ACTION_ORDER' (918294331); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'BrokerConfig' table...
+Table: 'BrokerConfig' (923150334); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Report' table...
+Table: 'Report' (926626344); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 6
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'KernelDrivers' table...
+Table: 'KernelDrivers' (930102354); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 8
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MBSlot' table...
+Table: 'MBSlot' (932198371); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TaskBnfMacros' table...
+Table: 'TaskBnfMacros' (935674381); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extents Scanned..............................: 2
+- Extent Switches..............................: 1
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Extent Scan Fragmentation ...................: 50.00%
+- Avg. Bytes Free per Page.....................: 8018.0
+- Avg. Page Density (full).....................: 0.94%
+DBCC SHOWCONTIG scanning 'LPM_Data' table...
+Table: 'LPM_Data' (947534459); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Modem' table...
+Table: 'Modem' (953770455); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ProductLicense' table...
+Table: 'ProductLicense' (967674495); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PeripheralAdapters' table...
+Table: 'PeripheralAdapters' (978102525); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Transport' table...
+Table: 'Transport' (980198542); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_TEMPLATE_GROUP_DEF' table...
+Table: 'PROV_TEMPLATE_GROUP_DEF' (982294559); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DashboardWidget' table...
+Table: 'DashboardWidget' (985770569); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 6158.0
+- Avg. Page Density (full).....................: 23.92%
+DBCC SHOWCONTIG scanning 'Services' table...
+Table: 'Services' (1003150619); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 6
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertRulesets' table...
+Table: 'AlertRulesets' (1010102639); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Partitions' table...
+Table: 'Partitions' (1013578649); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'NULLSHARES' table...
+Table: 'NULLSHARES' (1037246750); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroupReport' table...
+Table: 'CustomGroupReport' (1038626743); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ConsoleUserScope' table...
+Table: 'ConsoleUserScope' (1072722874); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'RCAction' table...
+Table: 'RCAction' (1083150904); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertRules' table...
+Table: 'AlertRules' (1106102981); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'FireWire' table...
+Table: 'FireWire' (1117247035); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Script' table...
+Table: 'Script' (1125579048); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'RCLog' table...
+Table: 'RCLog' (1131151075); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 9
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 100.00% [2:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ClientSecSol' table...
+Table: 'ClientSecSol' (1152723159); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'KeyValue' table...
+Table: 'KeyValue' (1161771196); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'OSDHoldingQueuePE' table...
+Table: 'OSDHoldingQueuePE' (1166627199); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CoreConfiguration' table...
+Table: 'CoreConfiguration' (1170103209); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CompSystem' table...
+Table: 'CompSystem' (1184723273); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_VARIABLE_DEF' table...
+Table: 'PROV_VARIABLE_DEF' (1190295300); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AntiVirus' table...
+Table: 'AntiVirus' (1198627313); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'KeyValueStringArray' table...
+Table: 'KeyValueStringArray' (1209771367); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Memory' table...
+Table: 'Memory' (1218103380); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'QueryTypeEnum' table...
+Table: 'QueryTypeEnum' (1221579390); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'QueryFields' table...
+Table: 'QueryFields' (1232723444); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 7
+- Extent Switches..............................: 4
+- Scan Density [Best Count:Actual Count].......: 20.00% [1:5]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'VULSCAN_Files' table...
+Table: 'VULSCAN_Files' (1243151474); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'METAEQUIVALENTS' table...
+Table: 'METAEQUIVALENTS' (1245247491); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 3
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 33.33% [1:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Scanner' table...
+Table: 'Scanner' (1246627484); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'MemorySlot' table...
+Table: 'MemorySlot' (1250103494); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_ACTION_SECTIONS' table...
+Table: 'PROV_ACTION_SECTIONS' (1254295528); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extents Scanned..............................: 2
+- Extent Switches..............................: 1
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 7501.0
+- Avg. Page Density (full).....................: 7.33%
+DBCC SHOWCONTIG scanning 'QuarantinedFiles' table...
+Table: 'QuarantinedFiles' (1269579561); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'HIPS' table...
+Table: 'HIPS' (1280723615); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ProductHash' table...
+Table: 'ProductHash' (1284199625); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 33.33% [1:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'NetworkSoftware' table...
+Table: 'NetworkSoftware' (1298103665); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Operating_System' table...
+Table: 'Operating_System' (1301579675); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Vulnerability' table...
+Table: 'Vulnerability' (1305771709); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 604
+- Extent Switches..............................: 78
+- Scan Density [Best Count:Actual Count].......: 96.20% [76:79]
+- Logical Scan Fragmentation ..................: 0.17%
+DBCC SHOWCONTIG scanning 'PROV_TEMPLATE_GROUPING' table...
+Table: 'PROV_TEMPLATE_GROUPING' (1318295756); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 7467.0
+- Avg. Page Density (full).....................: 7.75%
+DBCC SHOWCONTIG scanning 'VideoAdapter' table...
+Table: 'VideoAdapter' (1328723786); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TaskPolicy' table...
+Table: 'TaskPolicy' (1341247833); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TCP' table...
+Table: 'TCP' (1346103836); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'USBMonAlert' table...
+Table: 'USBMonAlert' (1360723900); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Handler' table...
+Table: 'Handler' (1367675920); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'APM_POLICY_QUERY' table...
+Table: 'APM_POLICY_QUERY' (1371151930); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_TEMPLATE_REL' table...
+Table: 'PROV_TEMPLATE_REL' (1382295984); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 5988.0
+- Avg. Page Density (full).....................: 26.02%
+DBCC SHOWCONTIG scanning 'CustomGroupVuln' table...
+Table: 'CustomGroupVuln' (1385771994); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 3
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'FloppyDrives' table...
+Table: 'FloppyDrives' (1390627997); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Product' table...
+Table: 'Product' (1394104007); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 8
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'OSDSettings' table...
+Table: 'OSDSettings' (1396200024); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TrustedItem' table...
+Table: 'TrustedItem' (1397580017); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ProductGroupScope' table...
+Table: 'ProductGroupScope' (1422628111); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Query' table...
+Table: 'Query' (1429580131); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PROV_SCRIPTED_OS_DEF' table...
+Table: 'PROV_SCRIPTED_OS_DEF' (1446296212); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SchedulerDirQueue' table...
+Table: 'SchedulerDirQueue' (1460200252); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PatchAuditTrail' table...
+Table: 'PatchAuditTrail' (1465772279); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LocalUsers' table...
+Table: 'LocalUsers' (1469248289); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertStrings' table...
+Table: 'AlertStrings' (1479676319); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 16
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 66.67% [2:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CDF_Files' table...
+Table: 'CDF_Files' (1486628339); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'APM_LDAP_SERVER' table...
+Table: 'APM_LDAP_SERVER' (1504724413); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'OSResource' table...
+Table: 'OSResource' (1511676433); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 5
+- Extent Switches..............................: 4
+- Scan Density [Best Count:Actual Count].......: 20.00% [1:5]
+- Logical Scan Fragmentation ..................: 20.00%
+DBCC SHOWCONTIG scanning 'PACKAGE_FILES_HASH' table...
+Table: 'PACKAGE_FILES_HASH' (1525580473); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PWM_POLICY_DEF' table...
+Table: 'PWM_POLICY_DEF' (1527012521); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Patch' table...
+Table: 'Patch' (1529772507); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 320
+- Extent Switches..............................: 41
+- Scan Density [Best Count:Actual Count].......: 95.24% [40:42]
+- Logical Scan Fragmentation ..................: 0.31%
+DBCC SHOWCONTIG scanning 'AlertHandlerConfigs' table...
+Table: 'AlertHandlerConfigs' (1531152500); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TimeZones' table...
+Table: 'TimeZones' (1549248574); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'BIOS' table...
+Table: 'BIOS' (1559676604); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PACKAGE' table...
+Table: 'PACKAGE' (1573580644); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CBA_Files' table...
+Table: 'CBA_Files' (1582628681); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Platform' table...
+Table: 'Platform' (1593772735); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroupTypeEnum' table...
+Table: 'CustomGroupTypeEnum' (1602104748); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'WindowsCE' table...
+Table: 'WindowsCE' (1611152785); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroupColumnSet' table...
+Table: 'CustomGroupColumnSet' (1620200822); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LP_JIT' table...
+Table: 'LP_JIT' (1623012863); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AlertHealth' table...
+Table: 'AlertHealth' (1623676832); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PatchToPlatform' table...
+Table: 'PatchToPlatform' (1625772849); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 228
+- Extent Switches..............................: 30
+- Scan Density [Best Count:Actual Count].......: 93.55% [29:31]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'OSUpdates' table...
+Table: 'OSUpdates' (1638296896); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 67
+- Extent Switches..............................: 8
+- Scan Density [Best Count:Actual Count].......: 100.00% [9:9]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'METAATTRIBUTES' table...
+Table: 'METAATTRIBUTES' (1650104919); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 83
+- Extent Switches..............................: 11
+- Scan Density [Best Count:Actual Count].......: 91.67% [11:12]
+- Logical Scan Fragmentation ..................: 1.20%
+DBCC SHOWCONTIG scanning 'LP_Shortcut' table...
+Table: 'LP_Shortcut' (1655012977); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AMTStrings' table...
+Table: 'AMTStrings' (1655676946); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 7
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ROI' table...
+Table: 'ROI' (1661248973); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ResAndRecover' table...
+Table: 'ResAndRecover' (1662628966); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SCSIControl' table...
+Table: 'SCSIControl' (1664724983); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'METAOBJECTS' table...
+Table: 'METAOBJECTS' (1682105033); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 10
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 100.00% [2:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'TMC_Files' table...
+Table: 'TMC_Files' (1687677060); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PatchHistory' table...
+Table: 'PatchHistory' (1689773077); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ScopeComputer' table...
+Table: 'ScopeComputer' (1700201107); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PACKAGE_FILES' table...
+Table: 'PACKAGE_FILES' (1701581100); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'OSDCredentials' table...
+Table: 'OSDCredentials' (1712725154); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'METASYSTEMS' table...
+Table: 'METASYSTEMS' (1732201221); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'VulSeverity' table...
+Table: 'VulSeverity' (1737773248); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Motherboard' table...
+Table: 'Motherboard' (1742629251); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PowerManager' table...
+Table: 'PowerManager' (1765581328); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LDAPUserGroups' table...
+Table: 'LDAPUserGroups' (1773249372); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_LDAP_TARGETS' table...
+Table: 'LD_LDAP_TARGETS' (1774629365); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 8094.0
+- Avg. Page Density (full).....................: 0.00%
+DBCC SHOWCONTIG scanning 'COMPorts' table...
+Table: 'COMPorts' (1776725382); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'METAOBJRELATIONS' table...
+Table: 'METAOBJRELATIONS' (1778105375); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'UpgradedPolicies' table...
+Table: 'UpgradedPolicies' (1797581442); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ScheduledQueriesTemp' table...
+Table: 'ScheduledQueriesTemp' (1799677459); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PatchSettings' table...
+Table: 'PatchSettings' (1801773476); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroupProduct' table...
+Table: 'CustomGroupProduct' (1819153526); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ProductComputer' table...
+Table: 'ProductComputer' (1821249543); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'METAOBJATTRRELATIONS' table...
+Table: 'METAOBJATTRRELATIONS' (1826105546); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 67
+- Extent Switches..............................: 9
+- Scan Density [Best Count:Actual Count].......: 90.00% [9:10]
+- Logical Scan Fragmentation ..................: 1.49%
+DBCC SHOWCONTIG scanning 'DEVICEGROUPINFO' table...
+Table: 'DEVICEGROUPINFO' (1829581556); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DiscreteOperationTypeHandlers' table...
+Table: 'DiscreteOperationTypeHandlers' (1831013604); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'BehaviorInfo' table...
+Table: 'BehaviorInfo' (1833773590); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extents Scanned..............................: 1
+- Extent Switches..............................: 0
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Extent Scan Fragmentation ...................: 0.00%
+- Avg. Bytes Free per Page.....................: 7217.0
+- Avg. Page Density (full).....................: 10.84%
+DBCC SHOWCONTIG scanning 'DependsOn' table...
+Table: 'DependsOn' (1849773647); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SystemDrivers' table...
+Table: 'SystemDrivers' (1856725667); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DashboardUnusedLicSummary' table...
+Table: 'DashboardUnusedLicSummary' (1860201677); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DiscreteOperation' table...
+Table: 'DiscreteOperation' (1863013718); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'QuerySort' table...
+Table: 'QuerySort' (1863677687); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'BrokerCert' table...
+Table: 'BrokerCert' (1885249771); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DashboardInstUnusedSummary' table...
+Table: 'DashboardInstUnusedSummary' (1892201791); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ESD_Files' table...
+Table: 'ESD_Files' (1911677858); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PatchCache' table...
+Table: 'PatchCache' (1913773875); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'POLICY' table...
+Table: 'POLICY' (1934629935); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LaunchPad' table...
+Table: 'LaunchPad' (1943014003); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ComputerVulnerability' table...
+Table: 'ComputerVulnerability' (1945773989); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 682
+- Extent Switches..............................: 95
+- Scan Density [Best Count:Actual Count].......: 89.58% [86:96]
+- Logical Scan Fragmentation ..................: 0.88%
+DBCC SHOWCONTIG scanning 'System_Capability' table...
+Table: 'System_Capability' (1947153982); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AuthorizationFile' table...
+Table: 'AuthorizationFile' (1972202076); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LP_Link' table...
+Table: 'LP_Link' (1975014117); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'ClientConfig' table...
+Table: 'ClientConfig' (1977058079); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'VulType' table...
+Table: 'VulType' (1977774103); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'DashboardUnlicensedSummary' table...
+Table: 'DashboardUnlicensedSummary' (1981250113); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'BoundAdapter' table...
+Table: 'BoundAdapter' (1982630106); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'NetworkAdapter' table...
+Table: 'NetworkAdapter' (2004202190); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PatchProduct' table...
+Table: 'PatchProduct' (2009774217); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 58
+- Extent Switches..............................: 7
+- Scan Density [Best Count:Actual Count].......: 100.00% [8:8]
+- Logical Scan Fragmentation ..................: 1.72%
+DBCC SHOWCONTIG scanning 'LD_SCHEDULED_TASKS' table...
+Table: 'LD_SCHEDULED_TASKS' (2011154210); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'XDDReport' table...
+Table: 'XDDReport' (2013250227); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Computer' table...
+Table: 'Computer' (2025058250); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CommonAgent' table...
+Table: 'CommonAgent' (2037582297); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'UserList' table...
+Table: 'UserList' (2039014345); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PatchToPatchProduct' table...
+Table: 'PatchToPatchProduct' (2041774331); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 19
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 100.00% [3:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PointingDevices' table...
+Table: 'PointingDevices' (2043154324); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'SWPkgManager' table...
+Table: 'SWPkgManager' (2045250341); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 21
+- Extent Switches..............................: 2
+- Scan Density [Best Count:Actual Count].......: 100.00% [3:3]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'FixedDrives' table...
+Table: 'FixedDrives' (2062630391); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LD_ASYNC_REPLY' table...
+Table: 'LD_ASYNC_REPLY' (2064726408); index ID: 0, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 4
+- Extents Scanned..............................: 4
+- Extent Switches..............................: 3
+- Avg. Pages per Extent........................: 1.0
+- Scan Density [Best Count:Actual Count].......: 25.00% [1:4]
+- Extent Scan Fragmentation ...................: 50.00%
+- Avg. Bytes Free per Page.....................: 7508.0
+- Avg. Page Density (full).....................: 7.24%
+DBCC SHOWCONTIG scanning 'ResAndRecoverBck' table...
+Table: 'ResAndRecoverBck' (2075154438); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'AppSoftwareSuites' table...
+Table: 'AppSoftwareSuites' (2080726465); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 7
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LDSystemManager' table...
+Table: 'LDSystemManager' (2084202475); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CustomGroupScript' table...
+Table: 'CustomGroupScript' (2087678485); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LanDesk' table...
+Table: 'LanDesk' (2089058478); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Originator' table...
+Table: 'Originator' (2093250512); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'Extension' table...
+Table: 'Extension' (2094630505); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 3
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'PWM_CUSTOM_WATTAGE_DEF' table...
+Table: 'PWM_CUSTOM_WATTAGE_DEF' (2103014573); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 2
+- Extent Switches..............................: 1
+- Scan Density [Best Count:Actual Count].......: 50.00% [1:2]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'EnvironSettings' table...
+Table: 'EnvironSettings' (2117582582); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 7
+- Extent Switches..............................: 3
+- Scan Density [Best Count:Actual Count].......: 25.00% [1:4]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'LDServerManager' table...
+Table: 'LDServerManager' (2137058649); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC SHOWCONTIG scanning 'CDROMDrives' table...
+Table: 'CDROMDrives' (2141250683); index ID: 1, database ID: 7
+TABLE level scan performed.
+- Pages Scanned................................: 1
+- Extent Switches..............................: 0
+- Scan Density [Best Count:Actual Count].......: 100.00% [1:1]
+- Logical Scan Fragmentation ..................: 0.00%
+DBCC execution completed. If DBCC printed error messages, contact your system administrator.
